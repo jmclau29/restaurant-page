@@ -55,27 +55,31 @@ body {
 
 
 header {
-    display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     background-color: red;
-    padding: 1rem - 10px; 
+    height: 3rem; 
 }
 
-header > button {
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > button {
     margin: 10px;
     background: none;
     border: none;
     color: white;
     font-size: 1.5rem;
+    cursor: grab;
 }
 
-header > button:first-child {
+nav > button:first-child {
     justify-content: flex-end;
     margin-right: auto;
 }
 
-header > button:last-child {
+nav > button:last-child {
     margin-right: 2rem;
 }
 
@@ -86,6 +90,7 @@ header > button:last-child {
 #content {
     display: flex;
     flex-direction: column;
+    height: calc(100vh - 5rem);
 }
 
 #hero-banner {
@@ -109,8 +114,9 @@ header > button:last-child {
 
 #hero-items {
     display: flex;
-    padding: 5rem;
     flex-direction: row;
+    width: 100vw;
+    padding: 5rem 0;
     justify-content: center;
     background-color: antiquewhite;
 }
@@ -135,4 +141,5 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 2rem;
 }
