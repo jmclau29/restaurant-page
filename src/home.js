@@ -1,6 +1,8 @@
 import signImage from './images/sign.jpg';
 
 function homePageLoad() {
+    content.textContent = '';
+
     const heroBannerDiv = document.createElement('div');
     heroBannerDiv.setAttribute('id', 'hero-banner');
     const heroBanner = document.createElement('div');
