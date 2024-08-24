@@ -56,7 +56,7 @@ body {
 
 header {
     justify-content: flex-end;
-    background-color: red;
+    background-color: #170f5c;
     height: 3rem; 
 }
 
@@ -72,6 +72,10 @@ nav > button {
     color: white;
     font-size: 1.5rem;
     cursor: grab;
+}
+
+nav > button:hover {
+    color: darkgoldenrod;
 }
 
 nav > button:first-child {
@@ -138,3 +142,19 @@ footer {
     padding: 0.5rem 0;
 }
 
+#contact-title-text {
+    font-size: 3rem;
+}
+
+#contact-container {
+    padding: 5rem;
+}
+
+#contact-list {
+    padding: 1rem 0;
+}
+
+.contact-item {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
