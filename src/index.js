@@ -1,3 +1,4 @@
+import contactPageLoad from "./contact.js";
 import homePageLoad from "./home.js";
 import menuPageLoad from "./menu.js";
 import "./styles.css";
@@ -18,6 +19,7 @@ navBar.appendChild(contactBtn);
 
 homeBtn.addEventListener('click', () => {homePageLoad()});
 menuBtn.addEventListener('click', () => {menuPageLoad()});
+contactBtn.addEventListener('click', () => {contactPageLoad()});
 
 content.textContent = '';
 homePageLoad();

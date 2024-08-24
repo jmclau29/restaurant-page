@@ -121,3 +121,20 @@ footer {
     height: 2rem;
 }
 
+#menu-container {
+    padding: 5rem;
+}
+
+#menu-list {
+    padding: 1rem 0;
+}
+
+#menu-title-text {
+    font-size: 3rem;
+}
+
+.menu-item {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
